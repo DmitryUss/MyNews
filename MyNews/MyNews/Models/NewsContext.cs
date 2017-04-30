@@ -8,7 +8,7 @@ namespace MyNews.Models
 {
     public class NewsContext : DbContext
     {
-        public NewsContext() : base("name = NewsContext")
+        public NewsContext() : base("NewsConection")
         {
 
         }
